@@ -110,7 +110,7 @@ function Team() {
             name="MLX"
             role="项目联合发起人 / 公众号灵魂写手"
             description="这里写LX的介绍"
-            twitterLink="https://twitter.com/muxin_eth"
+            twitterLink="https://twitter.com/ErDong_eth"
           />
           
         </TeamWrapper>
@@ -120,7 +120,8 @@ function Team() {
             name="Sherry"
             role="项目联合发起人 / 运营能手 / 大胃王"
             description="擅长一个人吃三个人的饭！（看看sherry还有没有补充）"
-            twitterLink="https://twitter.com/brucexu_eth"
+            twitterLink="https://twitter.com/ErDong_eth"
+
           />
         </TeamWrapper>
       </Content>
