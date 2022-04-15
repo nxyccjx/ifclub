@@ -5,7 +5,6 @@ import Container from "./Container";
 import React, { useState } from "react";
 import Dialog from "@mui/material/Dialog";
 import Typography from "@mui/material/Typography";
-import CloseIcon from "@mui/icons-material/Close";
 import IconButton from "@mui/material/IconButton";
 
 
@@ -19,7 +18,7 @@ const Head = styled.div`
     }
 `
 const StyledLink = styled.a`
-    padding: 25px;
+    padding: 20px;
 `
 const Button = styled.div`
     display: flex;
@@ -28,7 +27,7 @@ const Button = styled.div`
     justify-content: space-around;
     align-items: center;
     @media only screen and (max-width: ${padWidth}) {
-        // margin-bottom: 10px;
+        margin-Top: 15px;
         justify-content: center;
     }
 `
@@ -43,6 +42,8 @@ const Heading = styled.h1`
         justify-content: center;
       }
 `
+
+
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -84,17 +85,17 @@ const Navbar = () => {
             </div>
             
         </Head>
-        <Dialog open={open} style={{ textAlign: "left",}} >
+        <Dialog open={open} style={{ textAlign: "left"}} >
         <Typography
             variant="h4"
-            style={{ textAlign: "left",color:'grey'}}
+            style={{ textAlign: "left",color:'grey',margin:"5%"}}
           >
             The English version will be developed when we have time. 
             Until then, please consider using the translator.
           </Typography>
           <Typography
             variant="h5"
-            style={{ textAlign: "right",color:'grey'}}
+            style={{ textAlign: "right",color:'grey',margin:"5%"}}
           >
            -- IF CLUB OFFICIAL
           </Typography>
@@ -102,8 +103,16 @@ const Navbar = () => {
             onClick={() => {
               setOpen(false);
             }}
+            style={{
+            textAlign: "center",
+            color:"grey",
+            width:"50px",
+            height:"50px",
+            alignSelf:"center",
+            fontSize:"15"
+            }}
           >
-            <CloseIcon style={{ fontSize: 20 }} />
+           OK
           </IconButton>
         </Dialog>
     </Container>
