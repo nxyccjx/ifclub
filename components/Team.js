@@ -88,7 +88,7 @@ function Team() {
     >
       <Typography
         style={{ textAlign: "center", marginTop: "5%" }}
-        variant="h3"
+        variant="h4"
         gutterBottom
         component="div"
       >
@@ -101,25 +101,25 @@ function Team() {
           <TeamMember
             img="/profile/erdong.png"
             name="ErDong"
-            role="项目发起人 / 只会写“hello world”的程序猿 "
-            description="以前只擅长在脑子里各种幻想，现在迈出了实践的第一步！从此摆脱【思想上的巨人，行动上的矮子】这个称号！"
+            role="项目发起人 / 只会“ctrl C / V”的码手 "
+            description="【思想上的巨人 ➡️  行动上的巨人】"
             twitterLink="https://twitter.com/ErDong_eth"
           />
           <TeamMember
-            img="/profile/13.png"
-            name="MLX"
+            img="/profile/Lancy.png"
+            name="Lancy"
             role="项目联合发起人 / 公众号灵魂写手"
-            description="这里写LX的介绍"
-            twitterLink="https://twitter.com/ErDong_eth"
+            description="最大的优点就是老实巴交，但偶尔又神经兮兮"
+            twitterLink="https://twitter.com/Lancy_Ifclub"
           />
           
         </TeamWrapper>
         <TeamWrapper>
           <TeamMember
-            img="/profile/82.png"
+            img="/profile/Sherry.png"
             name="Sherry"
             role="项目联合发起人 / 运营能手 / 大胃王"
-            description="擅长一个人吃三个人的饭！（看看sherry还有没有补充）"
+            description="班么不上，饭么猛吃！擅长一次吃三个人的饭！"
             twitterLink="https://twitter.com/ErDong_eth"
 
           />

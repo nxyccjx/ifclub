@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from 'next/link';
 import Container from "./Container";
 import Typography from "@mui/material/Typography";
 import Accordion from "@mui/material/Accordion";
@@ -14,6 +15,9 @@ const Content = styled.div`
   }
 `;
 
+const StyledLink = styled.a`
+    padding: 20px;
+`
 
 const QA = () => {
   return (
@@ -68,6 +72,17 @@ const QA = () => {
             </Typography>
             <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
               但由于我们无法主观上选择赠送对象，因此决定采用Twitter抽奖的方式，尽可能做到公平公正。
+            </Typography>
+          </AccordionDetails>
+          </Accordion>
+
+          <Accordion style={{ marginTop: 20 }}>
+          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+            <Typography style={{fontSize: 22 }}>什么时候开始送呢？</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
+              网站上线后不久，就会开始抽奖！记得关注官方推特，别错过哦！
             </Typography>
           </AccordionDetails>
           </Accordion>
@@ -133,6 +148,35 @@ const QA = () => {
               2. 同时我们也不排除有人极度钟意按生日编号去购买NFT，为了避免他们买不到，所以将优先抽非生日编号的NFT进行赠送。
               （当然了， 如果他们不买，到头来还是要送出去的）
             </Typography>
+          </AccordionDetails>
+          </Accordion>
+
+          <Accordion style={{ marginTop: 20 }}>
+          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+            <Typography style={{fontSize: 22 }}>对参与者有什么要求吗？</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
+              1. 您需要一个数字钱包和 Twitter 账号。
+            </Typography>
+            <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
+              2. 如您实在喜欢，但不想抽奖，不愿购买；<strong>直接右键保存即可！</strong>
+            </Typography>
+            <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
+              3. 如您投机倒把，结果最后赔惨了，<strong>请不要出口即国粹！</strong>我们为您提供如下解决方案：
+            </Typography>
+            <Typography style={{ marginBottom: 5, fontSize: 20,alignItems:"center",textAlign:"center" }}variant="body2">
+            
+              <strong><a href="https://peisong.meituan.com/rider"target="_blank" 
+              style={{borderBottom: "2px dashed",margin:"1%"}}>【 办法1 】</a></strong>
+              <strong><a href="http://www.25z.cn/job/baoming.asp" target="_blank"
+              style={{borderBottom: "2px dashed",margin:"1%"}}>【 办法2 】</a></strong>
+              （ 我们相信，假以时日，您定能东山再起！）
+            </Typography>
+            <Typography style={{ marginBottom: 5, fontSize: 20,alignItems:"center",textAlign:"center" }}variant="body2">
+           
+            </Typography>
+
           </AccordionDetails>
           </Accordion>
 
