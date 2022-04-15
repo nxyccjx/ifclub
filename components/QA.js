@@ -167,9 +167,15 @@ const QA = () => {
             </Typography>
             <Typography style={{ marginBottom: 5, fontSize: 20,alignItems:"center",textAlign:"center" }}variant="body2">
             
-              <strong><a href="https://peisong.meituan.com/rider"target="_blank" 
+            <strong><a 
+              href="https://peisong.meituan.com/rider" 
+              rel="noreferrer"
+              target="_blank"
               style={{borderBottom: "2px dashed",margin:"1%"}}>【 办法1 】</a></strong>
-              <strong><a href="http://www.25z.cn/job/baoming.asp" target="_blank"
+              <strong><a 
+              href="http://www.25z.cn/job/baoming.asp" 
+              rel="noreferrer"
+              target="_blank" 
               style={{borderBottom: "2px dashed",margin:"1%"}}>【 办法2 】</a></strong>
               （ 我们相信，假以时日，您定能东山再起！）
             </Typography>
