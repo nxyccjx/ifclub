@@ -109,8 +109,10 @@ function Team() {
             img="/profile/Lancy.png"
             name="Lancy"
             role="项目联合发起人 / 公众号灵魂写手"
+
             description="最大的优点就是老实巴交，但偶尔又神经兮兮"
             twitterLink="https://twitter.com/Lancy_Ifclub"
+
           />
           
         </TeamWrapper>
@@ -119,8 +121,10 @@ function Team() {
             img="/profile/Sherry.png"
             name="Sherry"
             role="项目联合发起人 / 运营能手 / 大胃王"
+
             description="班么不上，饭么猛吃！擅长一次吃三个人的饭！"
             twitterLink="https://twitter.com/ErDong_eth"
+
 
           />
         </TeamWrapper>
