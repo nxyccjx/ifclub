@@ -167,7 +167,9 @@ const QA = () => {
             </Typography>
             <Typography style={{ marginBottom: 5, fontSize: 20,alignItems:"center",textAlign:"center" }}variant="body2">
             
+
              <strong><a 
+
               href="https://peisong.meituan.com/rider" 
               rel="noreferrer"
               target="_blank"
