@@ -123,7 +123,7 @@ function Team() {
             role="项目联合发起人 / 运营能手 / 大胃王"
 
             description="班么不上，饭么猛吃！擅长一次吃三个人的饭！"
-            twitterLink="https://twitter.com/ErDong_eth"
+            twitterLink="https://twitter.com/ShilohSama"
 
 
           />
