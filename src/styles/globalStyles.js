@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import React, { useEffect, useState, useRef } from "react";
 
 // Used for wrapping a page component
 export const Screen = styled.div`
