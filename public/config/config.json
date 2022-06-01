@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x7B4A0d873074a3f5489391bdF115366189Ad4679",
+  "SCAN_LINK": "https://polygonscan.com/address/0x7b4a0d873074a3f5489391bdf115366189ad4679",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Buddha-Like Youths",
+  "SYMBOL": "BLY",
+  "MAX_SUPPLY": 2333,
+  "WEI_COST": 2300000000000000000,
+  "DISPLAY_COST": 2.3,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/buddha-like-youths",
+  "SHOW_BACKGROUND": true
+}
