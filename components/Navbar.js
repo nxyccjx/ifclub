@@ -63,14 +63,14 @@ const Navbar = () => {
                     IF CLUB OFFICIAL</Heading>
             <div>
                 <Link href=" /" passHref>
-                    <StyledLink style={{fontSize: 20}}>介绍</StyledLink>
+                    <StyledLink style={{fontSize: 20}}>主页</StyledLink>
                 </Link>
                 <Link href=" /roadmap" passHref>
                     <StyledLink style={{fontSize: 20}}>路线图</StyledLink>
                 </Link>
-                <Link href=" /faq" passHref>
+                {/* <Link href=" /faq" passHref>
                     <StyledLink style={{fontSize: 20}}>FAQ</StyledLink>
-                </Link>
+                </Link> */}
                 <Link href=" /about" passHref>
                     <StyledLink style={{fontSize: 20}}>关于我们</StyledLink>
                 </Link>  

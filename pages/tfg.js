@@ -1,7 +1,10 @@
+import Info from '../components/tfg/Info';
 import Head from 'next/head'
-import QA from '../components/QA_tfg';
+import Intro from '../components/tfg/Intro';
+import QA_tfg from '../components/QA_tfg';
 
-export default function faq() {
+
+export default function tlg() {
   return (
     <div>
       <Head>
@@ -9,7 +12,9 @@ export default function faq() {
         <meta name="description" content="If Club Official Website" />
         <link rel="icon" href="/if_logo.png" />
       </Head>
-      <QA />
+      <Intro />
+      <Info />
+      <QA_tfg />
     </div>
   );
 }

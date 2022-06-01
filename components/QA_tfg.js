@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Link from 'next/link';
 import Container from "./Container";
 import Typography from "@mui/material/Typography";
 import Accordion from "@mui/material/Accordion";
@@ -28,7 +27,7 @@ const QA = () => {
       id="intro"
     >
         <Typography
-        style={{ textAlign: "center", marginTop: "5%" }}
+        style={{ textAlign: "center", marginTop: "2%" }}
         variant="h3"
         gutterBottom
         component="div"
@@ -36,22 +35,7 @@ const QA = () => {
         F A Q
       </Typography>
       <Content>
-        <Accordion>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography style={{fontSize: 22 }}>什么是 If Club？</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography style={{ marginBottom: 20, fontSize: 20 }}variant="body2">
-              隆重介绍一下：
-            </Typography>
-            <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
-              <strong>“把想法变为现实”</strong> 是If Club 诞生的初衷。
-              秉持着这个理念，【如果我做了一套NFT，会有怎样的收获？】这个想法应运而生。
-              并且成为了If Club的首个实践项目。
-            </Typography>
-          </AccordionDetails>
-          </Accordion>
-          <Accordion style={{ marginTop: 20 }}>
+          <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography style={{fontSize: 22 }}>这个NFT 有啥用？</Typography>
           </AccordionSummary>
@@ -71,7 +55,7 @@ const QA = () => {
               没错！不玩虚的，不整套路，免费送！
             </Typography>
             <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
-              但由于我们无法主观上选择赠送对象，因此决定采用Twitter抽奖的方式，尽可能做到公平公正。
+              之前尝试Twitter抽奖，奈何没流量，没关注。因此改为留言赠送，先到先得。
             </Typography>
           </AccordionDetails>
           </Accordion>
@@ -82,7 +66,7 @@ const QA = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
-              网站上线后不久，就会开始抽奖！记得关注官方推特，别错过哦！
+              已经在送了！
             </Typography>
           </AccordionDetails>
           </Accordion>
@@ -138,21 +122,6 @@ const QA = () => {
 
           <Accordion style={{ marginTop: 20 }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography style={{fontSize: 22 }}>抽奖规则及赠送方式 ？</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
-              1. 每期抽奖个数不会很多，因为我们对自己的项目有清晰的认知，万一说送50个，但参与抽奖就3个人，我会很尴尬。
-            </Typography>
-            <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
-              2. 同时我们也不排除有人极度钟意按生日编号去购买NFT，为了避免他们买不到，所以将优先抽非生日编号的NFT进行赠送。
-              （当然了， 如果他们不买，到头来还是要送出去的）
-            </Typography>
-          </AccordionDetails>
-          </Accordion>
-
-          <Accordion style={{ marginTop: 20 }}>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography style={{fontSize: 22 }}>对参与者有什么要求吗？</Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -160,27 +129,7 @@ const QA = () => {
               1. 您需要一个数字钱包和 Twitter 账号。
             </Typography>
             <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
-              2. 如您实在喜欢，但不想抽奖，不愿购买；<strong>直接右键保存即可！</strong>
-            </Typography>
-            <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
-              3. 如您投机倒把，结果最后赔惨了，<strong>请不要出口即国粹！</strong>我们为您提供如下解决方案：
-            </Typography>
-            <Typography style={{ marginBottom: 5, fontSize: 20,alignItems:"center",textAlign:"center" }}variant="body2">
-            
-             <strong><a 
-              href="https://peisong.meituan.com/rider" 
-              rel="noreferrer"
-              target="_blank"
-              style={{borderBottom: "2px dashed",margin:"1%"}}>【 办法1 】</a></strong>
-              <strong><a 
-              href="http://www.25z.cn/job/baoming.asp" 
-              rel="noreferrer"
-              target="_blank" 
-              style={{borderBottom: "2px dashed",margin:"1%"}}>【 办法2 】</a></strong>
-              （ 我们相信，假以时日，您定能东山再起！）
-            </Typography>
-            <Typography style={{ marginBottom: 5, fontSize: 20,alignItems:"center",textAlign:"center" }}variant="body2">
-           
+              2. 如您没有钱包，也不想关注，不愿留言；<strong>直接右键保存即可！</strong>
             </Typography>
 
           </AccordionDetails>
@@ -217,7 +166,7 @@ const QA = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography style={{ marginBottom: 5, fontSize: 20 }}variant="body2">
-              快去参与抽奖吧！再晚就不赶趟儿了！
+              又浪费了一秒钟哦！
             </Typography>
           </AccordionDetails>
           </Accordion>

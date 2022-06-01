@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Typography from "@mui/material/Typography";
 import Tooltip from "@mui/material/Tooltip";
-import Container from "./Container";
+import Container from "../Container";
 
 
 
@@ -15,7 +15,7 @@ const Content = styled.div`
   padding-bottom: 60px;
 `;
 const ContentImage = styled.div`
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   
@@ -38,6 +38,9 @@ function Intro() {
       id="intro"
     >
       <Content>
+      <Typography style={{ marginTop: "3%",textAlign: "center" }} variant="h4" gutterBottom>
+          The Flying Ghost （TFG）
+        </Typography>
         <ContentImage>
           <img src="/demo.gif" />
         </ContentImage>

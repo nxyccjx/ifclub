@@ -1,12 +1,11 @@
 import Head from 'next/head'
-import HomePage from '../components/HomePage';
+import Intro_bly from '../components/bly/Intro_bly';
 import App from '../src/App';
 import {Provider, useDispatch} from 'react-redux';
 import store from "../src/redux/store";
-import Project_info from '../components/Project_info';
+import QA_bly from '../components/bly/QA_bly';
 
-
-export default function Home() {
+export default function tlg() {
   return (
     <div>
       <Head>
@@ -14,11 +13,11 @@ export default function Home() {
         <meta name="description" content="If Club Official Website" />
         <link rel="icon" href="/if_logo.png" />
       </Head>
-      <HomePage />
-      <Project_info />
-      {/* <Provider store={store}>
-    <App />
-  </Provider> */}
+      <Intro_bly />
+      <Provider store={store}>
+         <App />
+      </Provider>
+      <QA_bly />
     </div>
   );
 }

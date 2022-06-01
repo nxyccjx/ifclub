@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Typography from "@mui/material/Typography";
-import Container from "./Container";
+import Container from "../Container";
 
 
 const Content = styled.div`
@@ -29,10 +29,10 @@ const info = () => {
           <strong>请大家放心、积极、并以跑步前进的方式地参与！</strong>
         </Typography>
         <Typography style={{ marginBottom: 20, fontSize: 23}} variant="body1" gutterBottom>
-          2.  我们这次设置了 <strong>1231 份限量作品</strong>用来赠送，但我们深知自个儿的项目不具备流量，所以只要参与，很大概率可以抽中，<strong>不必FOMO！</strong>
+          2.  我们这次设置了 <strong>1231 份限量作品</strong>用来赠送，但我们深知自个儿的项目不具备流量，所以只要参与，很大概率可以拥有，<strong>不必FOMO！</strong>
         </Typography>
         <Typography style={{ marginBottom: 20, fontSize: 23}} variant="body1" gutterBottom>
-          3.   区别于<strong>传统 NFT 项目</strong>在肝白时要执行的各种操作，我们采取最传统的方式：<strong>Twitter抽奖</strong>，来随机赠送！（也叫Airdrop或者Giveaway，随便你们喜欢什么）
+          3.   区别于<strong>传统 NFT 项目</strong>在肝白时要执行的各种操作，我们采取最传统的方式：<strong>关注Twitter</strong>，留言赠送，先到先得！（一种佛系空投方式）
         </Typography>
         <Typography style={{ marginBottom: 20, fontSize: 23 }} variant="body1" gutterBottom>
           4.  我们承诺不会以任何方式再次增发！

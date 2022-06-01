@@ -26,7 +26,7 @@ const Footer = () => {
             margin: "3%",
             fontSize: 24,
           }}>
-            <strong>声明：</strong>本站所提供信息均为项目内容展示，不构成任何投资建议！
+            就是为了结构完整，写个页脚
         </Typography>
         </Head>
         
